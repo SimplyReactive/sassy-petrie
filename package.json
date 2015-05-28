@@ -1,6 +1,6 @@
 {
   "name": "sassy-petrie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package to handle multiple stylesheets in Laravel Elixir and compile with Ruby",
   "main": "index.js",
   "scripts": {
