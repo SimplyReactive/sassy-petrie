@@ -20,6 +20,7 @@ function extend(defaults, options) {
     }
     return extended;
 };
+
 function onError(err) {
     console.error('Error', err.message);
     notify.icon = 'icons/fail.png';
@@ -46,7 +47,7 @@ elixir.extend('sassyPetrie', function (src, options) {
             this.count = this.count || 0;
             this.count++;
             var name = src[this.count-1];
-            var file = options.sourceFolder + name + '.scss';
+            var file = options.sourceFolder + name;
             var stream = sass(file, {
                 sourcemap: options.sourceMaps,
                 lineNumbers: options.lineNumbers,

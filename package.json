@@ -1,7 +1,7 @@
 {
   "name": "sassy-petrie",
-  "version": "1.0.0",
-  "description": "An alternative method of compiling SASS with gulp-ruby-sass",
+  "version": "1.0.1",
+  "description": "A package to handle multiple stylesheets in Laravel Elixir and compile with Ruby",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
