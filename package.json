@@ -1,0 +1,28 @@
+{
+  "name": "sassy-petrie",
+  "version": "1.0.0",
+  "description": "An alternative method of compiling SASS with gulp-ruby-sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimplyReactive/sassy-petrie"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "sass",
+    "sassy-petrie",
+    "simply reactive"
+  ],
+  "author": "Nathan Burgess (nathanburgess@me.com)",
+  "license": "MIT",
+  "dependencies": {
+    "clone": "*",
+    "gulp-foreach": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-sourcemaps": "*"
+  }
+}
